@@ -31,6 +31,13 @@
 			remoteGlobalIDString = 3BBB095920AC5CC20029100D;
 			remoteInfo = FubonGuardiansTeamLogo;
 		};
+		3BBB098F20AC5CF40029100D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BBB098B20AC5CF40029100D /* 00457149-FubonLogo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55AE350020AAD6100087F1AD;
+			remoteInfo = "00457149-FubonLogo";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +54,7 @@
 		3BBB097920AC5CC30029100D /* FubonGuardiansTeamLogoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FubonGuardiansTeamLogoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBB097D20AC5CC30029100D /* FubonGuardiansTeamLogoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FubonGuardiansTeamLogoUITests.swift; sourceTree = "<group>"; };
 		3BBB097F20AC5CC30029100D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBB098B20AC5CF40029100D /* 00457149-FubonLogo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "00457149-FubonLogo.xcodeproj"; path = "../../Downloads/00457149-FubonLogo.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		3BBB095120AC5CC20029100D = {
 			isa = PBXGroup;
 			children = (
+				3BBB098B20AC5CF40029100D /* 00457149-FubonLogo.xcodeproj */,
 				3BBB095C20AC5CC20029100D /* FubonGuardiansTeamLogo */,
 				3BBB097120AC5CC30029100D /* FubonGuardiansTeamLogoTests */,
 				3BBB097C20AC5CC30029100D /* FubonGuardiansTeamLogoUITests */,
@@ -123,6 +132,14 @@
 				3BBB097F20AC5CC30029100D /* Info.plist */,
 			);
 			path = FubonGuardiansTeamLogoUITests;
+			sourceTree = "<group>";
+		};
+		3BBB098C20AC5CF40029100D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBB099020AC5CF40029100D /* 00457149-FubonLogo.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +232,12 @@
 			mainGroup = 3BBB095120AC5CC20029100D;
 			productRefGroup = 3BBB095B20AC5CC20029100D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3BBB098C20AC5CF40029100D /* Products */;
+					ProjectRef = 3BBB098B20AC5CF40029100D /* 00457149-FubonLogo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3BBB095920AC5CC20029100D /* FubonGuardiansTeamLogo */,
@@ -223,6 +246,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3BBB099020AC5CF40029100D /* 00457149-FubonLogo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "00457149-FubonLogo.app";
+			remoteRef = 3BBB098F20AC5CF40029100D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3BBB095820AC5CC20029100D /* Resources */ = {
